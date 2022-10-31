@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS employee (
-  id VARCHAR(50) PRIMARY KEY,
+  id INT not null PRIMARY KEY,
   name VARCHAR(50),
   age INT
 );
